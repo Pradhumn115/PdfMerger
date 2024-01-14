@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+<div class="frame">
+    <div class="div">
+        <div class="navbar">
+            <div class="overlap-2">
+                <div class="text-wrapper-6">make your work easy</div>
+                <div class="text-wrapper-5">PDF X</div>
+                <div class="text-wrapper-4">Merge Pdf’s Online</div>
+
+            </div>
+        </div>
+        <form action="/merge" method="post" enctype="multipart/form-data" class="main">
+            <div class="overlap-wrapper">
+                <label for="Addfile" class="overlap">
+                    <h1 id="FileNo"></h1>
+                    <input type="file" name="file" id="Addfile" hidden="hidden" multiple accept=".pdf">
+                    <div class="text-wrapper-3">Add Files</div>
+                    <img class="pdfimage" src="../static/pdfimage.png" />
+                </label>
+            </div>
+            <div class="group">
+
+                <button type="submit" class="div-wrapper"><div class="text-wrapper-2">Merge</div></button>
+            </div>
+        </form>
+
+        <footer class="footer">
+            <div class="overlap-group"><div class="text-wrapper">Copyright by InsignoX</div></div>
+        </footer>
+    </div>
+</div>
+<script src="../static/script2.js"></script>
+</body>
+</html>

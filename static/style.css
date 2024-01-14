@@ -1,0 +1,172 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.frame {
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.frame .div {
+    background-color: #eaeaea;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.frame .footer {
+    width: 100vw;
+    height: 101px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+}
+
+.frame .overlap-group {
+    width: 100vw;
+    height: 101px;
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0;
+}
+
+.frame .text-wrapper {
+    font-family: "Deserta", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .main {
+    width: 751px;
+    height: 506px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.frame .group {
+    width: 360px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame .div-wrapper {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 358px;
+    height: 104px;
+    background-color: #ff7676;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.frame .text-wrapper-2 {
+    text-align: center;
+    font-family: "Comfortaa", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 65px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .overlap-wrapper {
+    margin-top: 40px;
+}
+
+.frame .overlap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 751px;
+    height: 312px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.frame .text-wrapper-3 {
+    text-align: center;
+    font-family: "Comfortaa", Helvetica;
+    font-weight: 400;
+    color: #0000004c;
+    font-size: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .pdfimage {
+    width: 100px;
+    height: 118px;
+    object-fit: cover;
+}
+
+.frame .navbar {
+
+    width: 100vw;
+    height: 117px;
+}
+
+.frame .overlap-2 {
+    width: 100vw;
+    height: 117px;
+    background-color: #ff6363;
+    border-radius: 0px 0px 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.frame .text-wrapper-4 {
+    font-family: "Deserta", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-5 {
+    font-family: "Deserta", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 70px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-6 {
+    font-family: "Deserta", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+#FileNo{
+    font-family: Comfortaa;
+    font-size: 22px;
+}
